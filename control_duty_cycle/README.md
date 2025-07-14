@@ -83,13 +83,3 @@ The system workflow is split across three main components:
 
 ---
 
-## Summary
-
-- **`utils.py`** — Configuration and detection of servo command presence.  
-- **`read_rosbags.py`** — Extracts selected topics from rosbag into CSV files.  
-- **Data Processing** — Loads CSVs, interpolates command signals, computes derived quantities, and generates diagnostic plots.  
-- **Rosbag quirks** — Some runs contain initial misalignment and manual repositioning effects causing velocity spikes and position jitter, which is normal and expected.
-
----
-
-This setup enables streamlined processing of RC car experimental data recorded via ROS 2 and OptiTrack for further control analysis and model validation.
