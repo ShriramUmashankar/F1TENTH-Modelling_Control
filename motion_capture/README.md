@@ -73,3 +73,9 @@ The `natnet.Client.spin()` method runs in a background thread so it can listen t
 Ensure you have installed the following dependencies:
 
 - GitHub Repository: https://github.com/mje-nz/python_natnet
+
+---
+
+## Final Use
+
+Finally you can set up a mocap package and run this in the docker or the system used to communicate between the motive software and jetson.
