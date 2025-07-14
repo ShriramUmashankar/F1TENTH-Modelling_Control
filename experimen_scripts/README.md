@@ -1,4 +1,4 @@
-# msteer_duty.py
+# steer_duty.py
 
 This script publishes a predefined sequence of motor duty cycle and servo steering commands to two ROS 2 topics:  
 - `/commands/motor/duty_cycle`  
