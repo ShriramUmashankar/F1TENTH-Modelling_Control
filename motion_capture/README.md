@@ -1,7 +1,7 @@
 
 # Mocap Odometry ROS 2 Node
 
-This ROS 2 node publishes real-time odometry data of a rigid body tracked by an OptiTrack motion capture system using the `python_natnet` package. It streams both raw and filtered data to two separate topics and is designed for downstream tasks like localization, control, and visualization.
+This ROS 2 node publishes real-time odometry data of a rigid body tracked by an OptiTrack motion capture system using the `python_natnet` package. It streams both raw and filtered data to two separate topics.
 
 ---
 
