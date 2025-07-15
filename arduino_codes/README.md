@@ -28,8 +28,8 @@ const int pulsesPerRevolution = 3;           // Number of encoder pulses per ful
 const float wheelDiameterMeters = 0.105;     // Diameter of your wheel in meters
 ```
 ## Timing and Sampling
--The loop() runs at 10Hz (delay(100))
--Timeout of 1 second is used to determine when the wheel has stopped (can change this )
+- The loop() runs at 10Hz (delay(100))
+- Timeout of 1 second is used to determine when the wheel has stopped (can change this )
 
 ## Notes
 - Make sure the encoder is connected to a hardware interrupt-capable pin (like pin 2 or 3 on most Arduino boards).
